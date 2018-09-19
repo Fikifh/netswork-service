@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const app = require('../app/app')
+
+app.listen(3000, () => {
+  console.log('Listening in port 3000')
+});
+
+
